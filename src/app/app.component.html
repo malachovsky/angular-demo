@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<div class="row">
+  <div class="col s12">
+    <ul class="tabs">
+      <li class="tab"><a routerLink="/example1" routerLinkActive="active">Example 1</a></li>
+      <li class="tab"><a routerLink="/example2" routerLinkActive="active">Example 2</a></li>
+    </ul>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

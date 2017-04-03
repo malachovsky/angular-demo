@@ -1,0 +1,16 @@
+div.table {
+  display: table;
+  width: 100%;
+  margin: 0 20px;
+}
+
+div.table-header, app-list-item.table-body-row {
+  display: table-row;
+  width: 100%;
+}
+
+div.table-header div.table-cell {
+  font-weight: bold;
+  display: table-cell;
+}
+

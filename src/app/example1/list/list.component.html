@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col s2"><h4>List</h4></div>
+  <div class="col s8"></div>
+  <div class="col s2"><a class="waves-effect waves-light btn" (click)="addItem()">Add item</a></div>
+</div>
+
+<div class="table">
+  <div class="table-header">
+    <div class="table-cell">Id</div>
+    <div class="table-cell">Name</div>
+    <div class="table-cell">Description</div>
+    <div class="table-cell">Actions</div>
+  </div>
+  <app-list-item *ngFor="let dataItem of items" [item]="dataItem" class="table-body-row"></app-list-item>
+</div>
+
